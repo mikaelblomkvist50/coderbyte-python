@@ -38,7 +38,7 @@ class TestCalculator(unittest.TestCase): #TestCalculator class inherits from uni
         #our function will actuall throw that value error and out test will think that somthing failed.
         #But we will look at a way we pass in arguments directly like we normally do in the second way to test for errors.
 
-        with self.assertRaises(ValueError): #second way of raising errors
+        with self.assertRaises(ValueError): #second way to test for raising errors
             calculator.divide(10, 0)
         #This way is testing the exceptions using a context manager, this will allow us to handle and check the exception
         #properly and also call the funciton normally as in pass the arguments directly to the function.
