@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=eJNNIyo9VEU&t=1150s
+
 class BankAccount(object):
     def __init__(self, balance = 3000):
         self.balance = balance
