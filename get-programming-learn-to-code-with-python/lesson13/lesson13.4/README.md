@@ -1,0 +1,1 @@
+Write a program that prints `Guess my number!` and assign a secret number to a variable. Read in an integer from the user. If the uesr's guess is lower than the secret number, print `Too low`. If the user's guess is higher than the secret number, print `Too high`. Finally, if the user's guess is the same as the secret number, print `You got it!`
